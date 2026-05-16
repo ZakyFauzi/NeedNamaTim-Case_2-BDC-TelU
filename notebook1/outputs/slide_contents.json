@@ -1,0 +1,72 @@
+{
+  "background": {
+    "title": "Background",
+    "bullets": [
+      "Digital discussion around MBG on platform X reflects public sentiment and debate.",
+      "Dataset: tweets collected during program implementation period (provided by panitia).",
+      "Objective: analyze topics, actors, polarization, and actionable recommendations."
+    ],
+    "figures": [
+      "/kaggle/working/outputs/daily_volume.png"
+    ]
+  },
+  "research_question": {
+    "title": "Research Questions",
+    "bullets": [
+      "What are the main themes in public discussion about MBG?",
+      "Which actors shape the conversation and how information flows?",
+      "How polarized is the public discourse and which topics drive polarization?"
+    ],
+    "figures": []
+  },
+  "methodology": {
+    "title": "Methodology (1/2)",
+    "bullets": [
+      "Data cleaning and preprocessing of provided tweets.",
+      "Topic modeling (LDA, BERTopic fallback) to identify themes."
+    ],
+    "figures": []
+  },
+  "methodology_2": {
+    "title": "Methodology (2/2)",
+    "bullets": [
+      "Network analysis to detect influencers and communities.",
+      "Sentiment & polarization analysis aggregated by topic and time."
+    ],
+    "figures": []
+  },
+  "results": {
+    "title": "Results & Discussion",
+    "bullets": [],
+    "figures": [
+      "/kaggle/working/outputs/top_hashtags.csv",
+      "/kaggle/working/outputs/top_influencers.csv"
+    ]
+  },
+  "important_findings": {
+    "title": "Important Findings",
+    "bullets": [
+      "Top themes identified with prevalence percentages.",
+      "Key influencer accounts and their roles in information spread.",
+      "Measured level of polarity and topics with highest divergence."
+    ],
+    "figures": []
+  },
+  "suggestions": {
+    "title": "Suggestions",
+    "bullets": [
+      "Design communication addressing top concerns and misinformation channels.",
+      "Engage influencers from supportive and neutral communities for balanced outreach.",
+      "Monitor topic evolution and rapid response for spikes in negative sentiment."
+    ],
+    "figures": []
+  },
+  "ai_declaration": {
+    "title": "AI Usage Declaration",
+    "bullets": [
+      "AI tools used for code scaffolding and literature guidance only (to be declared).",
+      "All substantive analysis, modeling decisions, and final interpretations performed by the team."
+    ],
+    "figures": []
+  }
+}

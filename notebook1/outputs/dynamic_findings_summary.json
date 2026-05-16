@@ -1,0 +1,23 @@
+{
+  "report": {
+    "top_hashtag_1": "#makanbergizigratis",
+    "top_hashtag_2": "#mbg",
+    "top_user_1": "1720665183188922368",
+    "top_user_1_count": 167,
+    "top_ngram_1": "mbg",
+    "top_ngram_2": "program",
+    "top_central_user": "prabowo",
+    "top_central_degree": 0.0638706140350877,
+    "possible_amplification_count": 25,
+    "possible_amplification_user_1": "23343960.0",
+    "community_assortativity": null,
+    "community_count": 1544,
+    "support_vs_oppose_sentiment_gap": 0.1188993414887267
+  },
+  "insights": [
+    "Hashtag paling dominan adalah #makanbergizigratis, dengan #mbg sebagai penguat narasi publik.",
+    "Akun paling aktif adalah 1720665183188922368 dengan 167 tweet, menunjukkan konsentrasi aktivitas pada segelintir akun.",
+    "Aktor jaringan paling sentral adalah prabowo, sehingga layak dijadikan fokus pembacaan aliran informasi.",
+    "Terdeteksi 25 akun dengan pola amplifikasi yang patut diawasi sebagai proxy buzzer/coordinated behavior."
+  ]
+}

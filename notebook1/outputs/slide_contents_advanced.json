@@ -1,0 +1,77 @@
+{
+  "background": {
+    "title": "Background",
+    "bullets": [
+      "Percakapan MBG di X menunjukkan dua arus besar: dukungan program dan kritik implementasi.",
+      "Dataset berasal dari interaksi X yang disediakan panitia, tanpa data eksternal.",
+      "Analisis diarahkan ke tema, aktor kunci, komunitas, sentimen, dan indikator koordinasi akun."
+    ],
+    "figures": [
+      "/kaggle/working/outputs/daily_volume_anomaly.png"
+    ]
+  },
+  "research_question": {
+    "title": "Research Questions",
+    "bullets": [
+      "Apa tema dominan dalam diskusi MBG dan bagaimana pergeserannya dari waktu ke waktu?",
+      "Siapa aktor kunci dan komunitas apa yang menggerakkan percakapan?",
+      "Seberapa polar wacana MBG dan apakah ada pola anomali yang menyerupai amplifikasi terkoordinasi?"
+    ],
+    "figures": []
+  },
+  "methodology": {
+    "title": "Methodology (1/2)",
+    "bullets": [
+      "Preprocessing Bahasa Indonesia, domain stopword, tokenisasi, dan fitur akun.",
+      "Topic modelling semantik dengan BERTopic / fallback clustering berbasis embedding atau TF-IDF."
+    ],
+    "figures": []
+  },
+  "methodology_2": {
+    "title": "Methodology (2/2)",
+    "bullets": [
+      "SNA pada graph mention/retweet dengan centrality, komunitas Louvain, dan assortativity.",
+      "Anomaly detection pada level akun untuk mengidentifikasi pola amplifikasi yang tidak biasa."
+    ],
+    "figures": []
+  },
+  "results": {
+    "title": "Results & Discussion",
+    "bullets": [
+      "Topik dukungan cenderung berfokus pada manfaat, gizi anak, dan pemerataan.",
+      "Topik kritik menonjol pada keracunan, anggaran, kualitas menu, dan implementasi sekolah.",
+      "Akun media/resmi dan influencer politik mendominasi jaringan, sementara sebagian akun menunjukkan pola amplifikasi tinggi."
+    ],
+    "figures": [
+      "/kaggle/working/outputs/top_hashtags.csv",
+      "/kaggle/working/outputs/centrality_ranking.csv",
+      "/kaggle/working/outputs/possible_amplification_accounts.csv"
+    ]
+  },
+  "important_findings": {
+    "title": "Important Findings",
+    "bullets": [
+      "Diskusi MBG terbelah antara narasi manfaat dan kritik risiko/anggaran.",
+      "Komunitas jaringan membantu memetakan segmen pendukung, pengkritik, dan amplifikasi.",
+      "Anomali volume dan pola akun memberi sinyal early warning untuk isu yang perlu respons cepat."
+    ],
+    "figures": []
+  },
+  "suggestions": {
+    "title": "Suggestions",
+    "bullets": [
+      "Fokus komunikasi publik pada kualitas implementasi, transparansi anggaran, dan keamanan pangan.",
+      "Gunakan akun/komunitas yang kredibel untuk meredam isu negatif dengan respons berbasis data.",
+      "Bangun monitoring berkala atas lonjakan volume, topic shift, dan akun berindikasi amplifikasi terkoordinasi."
+    ],
+    "figures": []
+  },
+  "ai_declaration": {
+    "title": "AI Usage Declaration",
+    "bullets": [
+      "AI dipakai untuk membantu penulisan kode, debugging, dan penyusunan kerangka analisis.",
+      "Seluruh interpretasi substantif, validasi temuan, dan penyusunan akhir tetap harus diverifikasi oleh tim."
+    ],
+    "figures": []
+  }
+}
